@@ -1,15 +1,25 @@
+let selector
 describe('Test Mima Business', () => {
+  before(() => {
+    cy.fixture('element').then((attributes)  => {
+      selector = attributes
+    })
+  })
   it('successful sign-up', () => {
-    cy.visit('/')
-    cy.ClickAnElement('[class ="sc-imWYAI bMCZbA"]')
-    cy.typeAtext('#fullname', 'Shakii baby')
-    cy.typeAtext('#businessname', 'Shakii Store')
+
+    cy.ClickAnElement(selector.signupLink)
+    cy.fillFirstPage()
+    cy.ClickAnElement(selector.nextButton)
+    cy.fillSecondPage()
+    cy.ClickAnElement(selector.signupButton)
+    cy.contains(selector.OTPpagemessage1).should('be.visible').and('exist')
+    cy.contains(selector.OTPpagemessage2).should("be.visible").and('exist')
+    
   })
 
-  it('successful login', () => {
-    cy.visit('/')
-    cy.ClickAnElement('[class ="sc-imWYAI hgdAmX"]')
+  /*it('successful login', () => {
+    cy.ClickAnElement(selector.loginButton)
 
 
-  })
+  })*/
 })

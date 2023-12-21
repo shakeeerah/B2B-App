@@ -14,6 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-fill-command'
 import './commands'
 import './custom-commands/sign-up/action.spec'
 

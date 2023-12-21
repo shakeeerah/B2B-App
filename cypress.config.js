@@ -7,7 +7,7 @@ module.exports = defineConfig({
     },
   
       baseUrl: "https://staging.trymima.com",
-      viewportHeight: 800,
+      viewportHeight: 900,
       viewportWidth: 1500,
       watchForFileChanges: false,
       defaultCommandTimeout:15000
