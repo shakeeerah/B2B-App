@@ -1,0 +1,1 @@
+#### This project automates business sign-up process on MIMA BUSINESS.
