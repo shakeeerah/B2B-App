@@ -1,0 +1,38 @@
+{
+  "userElement":{
+    
+  "signupLink": ".Header2_header__nav__btn__wRKfY :nth-child(2)",
+  "fullnameField": "#fullname",
+  "businessnameField": "#businessname",
+  "businessemailField":"#businessemail",
+  "phonenumberField":"#businessphonenumber",
+  "BusinessregnumberField":"#businessRegNum",
+  "websiteField": "#website",
+  "twitterField":"#twitterHandle",
+  "instagramField": "#instagramHandle",
+  "HowYouKnowSelect": "div[placeholder]",
+  "HowYouKnow":"body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(3) > div:nth-child(2)",
+  "passwordField":"#password",
+  "nextButton": "button[type=button]",
+  "signupButton": "button[type=submit]",
+  "loginButton": ".Header2_header__nav__btn__wRKfY :nth-child(1)",
+  "OTPPage": ".Onboarding_text__center__FzKte",
+  "OTPField": "input"
+  },
+
+  "userData":{
+
+  "fullname":"Shakii Baby",
+  "businessname":"Shakii Store",
+  "businessemail": "meezlape+1234@gmail.com",
+  "phonenumber":"09022222201914",
+  "Businessregnumber": "RC12345",
+  "website":"www.shakiistore.com",
+  "twitter":"lape",
+  "instagram": "@lape",
+  "password":"Green100%",
+  "OTPpagemessage1": "Thank you for Signing up with Mima",
+  "OTPpagemessage2": "To make sure we’ve got your details right,we’ve sent a 5 digit code to your registered email"
+
+  }
+}
