@@ -1,11 +1,24 @@
-let elements
+import{faker} from '@faker-js/faker'
+import { Faker, en } from '@faker-js/faker';
+const fakeGen = new Faker({ locale: [en] });
+const randoNum = Math.floor(Math.random()*99)
+const finalEmail = fakeGen.internet.email({
+    firstName: 'meezlape+', 
+    lastName: randoNum, 
+    provider: 'gmail.com' });
+
+
+let elements    
 let data
 before(()=> {
     cy.fixture('selectors').then((attr) => {
         elements = attr.userElement
         data = attr.userData
     })
+    
+
 })
+
    
 Cypress.Commands.add('ClickAnElement', (element) => {
     cy.get(element).should('be.visible').and('exist').click()
@@ -19,8 +32,8 @@ Cypress.Commands.add('typeAtext', (textField, text) => {
 Cypress.Commands.add('fillFirstPage',() => {
     cy.typeAtext(elements.fullnameField, data.fullname)
     cy.typeAtext(elements.businessnameField, data.businessname)
-    cy.typeAtext(elements.businessemailField, data.businessemail)
-    cy.typeAtext(elements.phonenumberField, data.phonenumber)
+    cy.typeAtext(elements.businessemailField, finalEmail)
+    cy.typeAtext(elements.phonenumberField, faker.phone.number('08011########'))
     cy.typeAtext(elements.BusinessregnumberField, data.Businessregnumber)
     cy.ClickAnElement(elements.nextButton)
   
