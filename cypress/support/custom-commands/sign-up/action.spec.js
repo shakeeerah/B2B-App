@@ -16,9 +16,7 @@ before(()=> {
         data = attr.userData
     })
     
-
 })
-
    
 Cypress.Commands.add('ClickAnElement', (element) => {
     cy.get(element).should('be.visible').and('exist').click()
@@ -55,4 +53,9 @@ Cypress.Commands.add('verifyOTPPage',() => {
 
     }) 
 })
+Cypress.Commands.add('login', () => {
+    cy.typeAtext(elements.loginEmailField, data.loginEmail)
+    cy.typeAtext(elements.loginPasswordField, data.loginPassword)
+    cy.ClickAnElement(elements.loginButton)
 
+})

@@ -13,14 +13,17 @@ describe('Test Mima Business', () => {
     cy.fillFirstPage()
     cy.fillSecondPage()
     cy.verifyOTPPage()
-   
+
   
     
   })
 
-  /*it('successful login', () => {
-    cy.ClickAnElement(selector.loginButton)
+  it.only('successful log-in', () => {
+    cy.ClickAnElement(elements.loginLink)
+    cy.login()
+    
+   
 
 
-  })*/
+  })
 })

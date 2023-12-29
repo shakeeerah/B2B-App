@@ -15,9 +15,12 @@
   "passwordField":"#password",
   "nextButton": "button[type=button]",
   "signupButton": "button[type=submit]",
-  "loginButton": ".Header2_header__nav__btn__wRKfY :nth-child(1)",
+  "loginLink": ".Header2_header__nav__btn__wRKfY :nth-child(1) :nth-child(1)",
   "OTPPage": ".Onboarding_text__center__FzKte",
-  "OTPField": "input"
+  "OTPField": "input",
+  "loginEmailField": "#email",
+  "loginPasswordField": "#password",
+  "loginButton": "button[type=submit]"
   },
 
   "userData":{
@@ -32,7 +35,9 @@
   "instagram": "@lape",
   "password":"Green100%",
   "OTPpagemessage1": "Thank you for Signing up with Mima",
-  "OTPpagemessage2": "To make sure we’ve got your details right,we’ve sent a 5 digit code to your registered email"
+  "OTPpagemessage2": "To make sure we’ve got your details right,we’ve sent a 5 digit code to your registered email",
+  "loginEmail": "meezlape+1115@gmail.com",
+  "loginPassword": "Green100%"
 
   }
 }
