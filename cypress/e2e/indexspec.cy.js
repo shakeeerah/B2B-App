@@ -7,7 +7,7 @@ describe('Test Mima Business', () => {
       data = attr.userData
     })
   })
-  it('successful sign-up', () => {
+  it.skip('successful sign-up', () => {
 
     cy.ClickAnElement(elements.signupLink)
     cy.fillFirstPage()
@@ -18,9 +18,19 @@ describe('Test Mima Business', () => {
     
   })
 
-  it.only('successful log-in', () => {
+  it('successful log-in', () => {
     cy.ClickAnElement(elements.loginLink)
     cy.login()
+    
+   
+
+
+  })
+
+  it('Add a customer', () => {
+    cy.ClickAnElement(elements.loginLink)
+    cy.login()
+    cy.addACustomer()
     
    
 

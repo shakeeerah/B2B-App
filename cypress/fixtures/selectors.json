@@ -20,9 +20,20 @@
   "OTPField": "input",
   "loginEmailField": "#email",
   "loginPasswordField": "#password",
-  "loginButton": "button[type=submit]"
-  },
+  "loginButton": "button[type=submit]",
 
+  "customerIcon": "Customer",
+  "addCustomerIcon": "Add Customer",
+  "NameTextBox": "input[name='fullname']",
+  "PhonenumberTextBox": "input[name='mobile']",
+  "CustEmailTextBox": "input[name='email']",
+  "custGender": "label[for='FEMALE']",
+  "CustAddressTextBox": "textarea[name='address']",
+  "CustNotesBox": "textarea[name='description']",
+  "custSave": "button[type='submit']"
+
+  
+  },
   "userData":{
 
   "fullname":"Shakii Baby",
@@ -37,7 +48,8 @@
   "OTPpagemessage1": "Thank you for Signing up with Mima",
   "OTPpagemessage2": "To make sure we’ve got your details right,we’ve sent a 5 digit code to your registered email",
   "loginEmail": "meezlape+1115@gmail.com",
-  "loginPassword": "Green100%"
+  "loginPassword": "Green100%",
+  "CustNotes": "Thanks for your patronage"
 
   }
 }

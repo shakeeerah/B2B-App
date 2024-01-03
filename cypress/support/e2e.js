@@ -17,6 +17,7 @@
 import 'cypress-fill-command'
 import './commands'
 import './custom-commands/sign-up/action.spec'
+import './custom-commands/sign-up/cutomer.spec'
 
 
 // Alternatively you can use CommonJS syntax:
