@@ -30,7 +30,31 @@
   "custGender": "label[for='FEMALE']",
   "CustAddressTextBox": "textarea[name='address']",
   "CustNotesBox": "textarea[name='description']",
-  "custSave": "button[type='submit']"
+  "custSave": "button[type='submit']",
+
+
+  "InvoiceandAccounting": "Invoice & Accounting ",
+  "Invoiceandreceipt": "Invoice / Receipt",
+  "CreateNewInvoice": "Create New Invoice",
+  "CustClick": "div[placeholder='Select Customer']",
+  "SearchCust": "input[placeholder='Search list']",
+  "CustNameSearch": ".MimaDropdown_select__options__xLi7K:nth-child(3)",
+  "CurrencyClick": "div[placeholder='NGN']",
+  "SelectCurrency": ".MimaDropdown_select__options__xLi7K:nth-child(2)",
+  "SelectSalesChannel": "div[placeholder='Select a sales channel']",
+  "SearchSalesChan": "'input[placeholder='Search list'].sc-kpDqfm'",
+  "SelectSalesChanOption": ".MimaDropdown_select__options__xLi7K:nth-child(3)",
+  "ProductTextArea": "textarea[placeholder='Product/Service']",
+  "AmountInputBox":"input[name='orders.0.unitPrice']",
+  "QuantityInputBox":"input[name='orders.0.quantity']",
+  "ShippingFeeInputBox":"input[name='shipping']",
+  "DiscountFeeInputBox":"input[name='discountAmount']",
+  "acceptPartPayment": "body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(12) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)",
+
+  "dueDateInputBox": "input[name='dueDate']",
+  "selectDueDate": "div[aria-label='Choose Wednesday, January 17th, 2024']",
+  "noteBox": "textarea[name='note']",
+  "continueButton": "button[type='submit']"
 
   
   },
@@ -44,12 +68,17 @@
   "website":"www.shakiistore.com",
   "twitter":"lape",
   "instagram": "@lape",
-  "password":"Green100%",
   "OTPpagemessage1": "Thank you for Signing up with Mima",
   "OTPpagemessage2": "To make sure we’ve got your details right,we’ve sent a 5 digit code to your registered email",
   "loginEmail": "meezlape+1115@gmail.com",
-  "loginPassword": "Green100%",
-  "CustNotes": "Thanks for your patronage"
+  "CustNotes": "Thanks for your patronage",
+  "ProductText":"Adire stone",
+  "AmountInput":"20000",
+  "QuantityInput":"2",
+  "ShippingFeeInput":"2000",
+  "DiscountFeeInput":"500"
+  
+  
 
   }
 }

@@ -15,9 +15,11 @@
 
 // Import commands.js using ES2015 syntax:
 import 'cypress-fill-command'
+import 'cypress-mailslurp'
 import './commands'
 import './custom-commands/sign-up/action.spec'
 import './custom-commands/sign-up/cutomer.spec'
+import './custom-commands/sign-up/INVandACCT.spec'
 
 
 // Alternatively you can use CommonJS syntax:

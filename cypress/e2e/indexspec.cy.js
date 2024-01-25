@@ -14,23 +14,18 @@ describe('Test Mima Business', () => {
     cy.fillSecondPage()
     cy.verifyOTPPage()
 
-  
     
   })
 
   it('successful log-in', () => {
-    cy.ClickAnElement(elements.loginLink)
     cy.login()
     
    
-
-
   })
 
-  it('Add a customer', () => {
-    cy.ClickAnElement(elements.loginLink)
+  it('Create an Invoice', () => {
     cy.login()
-    cy.addACustomer()
+    cy.createAnInvoice()
     
    
 
